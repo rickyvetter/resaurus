@@ -1,0 +1,8 @@
+{
+  "name": "resaurus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rickyvetter/resaurus.git",
+  "author": "Ricky Vetter <rickywvetter@gmail.com>",
+  "license": "MIT"
+}
