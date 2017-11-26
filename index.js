@@ -154,6 +154,7 @@ function applyColors(siteConfig) {
 function resaurus(siteConfig) {
   applyCode(siteConfig);
   applyColors(siteConfig);
+  return siteConfig;
 }
 
 module.exports = resaurus;
