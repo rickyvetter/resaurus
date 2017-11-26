@@ -139,14 +139,14 @@ function applyColors(siteConfig) {
     siteConfig.colors = {};
   }
 
-  if (!siteConfig.highlight.primaryColor) {
-    siteConfig.highlight.primaryColor = '#db4d3f';
+  if (!siteConfig.colors.primaryColor) {
+    siteConfig.colors.primaryColor = '#db4d3f';
   }
-  if (!siteConfig.highlight.secondaryColor) {
-    siteConfig.highlight.secondaryColor = '#db4d3f';
+  if (!siteConfig.colors.secondaryColor) {
+    siteConfig.colors.secondaryColor = '#db4d3f';
   }
-  if (!siteConfig.highlight.codeColor) {
-    siteConfig.highlight.codeColor = 'rgba(243, 136, 136, 0.03)';
+  if (!siteConfig.colors.codeColor) {
+    siteConfig.colors.codeColor = 'rgba(243, 136, 136, 0.03)';
   }
 }
 
